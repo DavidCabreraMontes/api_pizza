@@ -6,5 +6,6 @@ class Pizzas(models.Model):
     ingredientes=models.TextField(null=False)
     descripcion=models.TextField(null=False)
     precio = models.FloatField(null=False)
+    urlImg = models.TextField(null=False)
     class Meta:
         db_table= "PIZZAS"
